@@ -5,7 +5,7 @@ This plugin generates a verification code via WordPress API and sends it to the 
 You can then check the code entered by the user with the API.
 
 
-# Generate verification code
+## Generate verification code
 
 `example.com/wp-json/wva/v1/email`
 
@@ -16,7 +16,8 @@ Email should be post in JSON format.
 { "email" : "anorouziiii@gmail.com" }
 ```
 
-# Check verification code
+
+## Check verification code
 
 `example.com/wp-json/wva/v1/verify`
 
@@ -27,7 +28,12 @@ Email and verification code should be posted in JSON format. if the code is corr
 {"email" : "anorouziiii@gmail.com","verify" : "53737"}
 ```
 
-# Screenshots
+## Wordpress plugins directory
+```
+https://wordpress.org/plugins/wp-verify-api/
+```
+
+## Screenshots
 
 ![Dashboard Screenshot](https://imagehost.imageupload.net/2020/05/22/screenshot-2.png)
 ![Email Screenshot](https://imagehost.imageupload.net/2020/05/22/screenshot-1.png)
